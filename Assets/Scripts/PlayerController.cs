@@ -63,13 +63,13 @@ public class PlayerController : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.blueViolet;
+        Gizmos.color = Color.darkSalmon;
         //Gizmos.DrawSphere(transform.position, 1f);
         //Gizmos.color = Color.chartreuse;
         //Gizmos.DrawLine(transform.position, Camera.main.transform.position);
 
 
-        Vector3 left = new Vector3(-xRange,
+        Vector3 left = new Vector3(xRange,
                 transform.position.y,
                 transform.position.z);
 
